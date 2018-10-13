@@ -1,0 +1,30 @@
+<html>
+<head>
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body class="background">
+<img class="logo" src="img/logo.png"/>
+
+<div class="languages"><a class="language" href="#">en</a><span>/</span><a class="language" href="#">pl</a></div>
+
+<div class="parentLoginContainer">
+
+    <div class="loginContainer">
+
+        <form id="login" method="POST" action="/login">
+            {{ form.csrf_token }}
+            <label class="label">Login</label><br/>
+            {{ form.username(size=20, class_='loginInput') }}<br/>
+
+            <label class="label"><% = password %></label><br/>
+            {{form.password(size=20, class_='loginInput')}}
+
+        </form>
+
+        <button class="loginSubmit" type="submit" form="login" value="submit"><%= login %></button>
+
+    </div>
+
+</div>
+</body>
+</html>

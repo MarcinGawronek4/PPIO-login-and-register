@@ -1,0 +1,240 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/Roboto-Regular.ttf');
+}
+
+.background {
+    background: #292929;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.parentLoginContainer {
+    display: table;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.loginContainer {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.loginInput {
+    margin-bottom: 8px;
+    background: #515151;
+    border: 2px solid #515151;
+    width: 100%;
+    line-height: 30px;
+    color: white;
+    font-size: 18px;
+    font-family: 'Roboto';
+}
+
+.loginSubmit {
+    width: 100%;
+    height: 30px;
+    background: #2AAE63;
+    font-family: 'Roboto';
+    border: 2px solid #2AAE63;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.label {
+    display: inline-block;
+    margin-bottom: 8px;
+    color: white;
+    vertical-align: top;
+    text-align: left;
+    font-family: 'Roboto';
+}
+
+.logo {
+    position: absolute;
+    height: 10%;
+    width: 9%;
+    top: 7px;
+    left: 7px;
+}
+
+.languages {
+    position: absolute;
+    display: inline-block;
+    top: 7px;
+    right: 7px;
+    color: white;
+}
+
+.language {
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.language:active {
+    color: #2AAE63;
+}
+
+.background {
+    background: #292929;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.parentLoginContainer {
+    display: table;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.loginContainer {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.loginContainer .inline {
+    display: inline-block;
+}
+
+.loginInput {
+    margin-bottom: 8px;
+    background: #515151;
+    border: 2px solid #515151;
+    width: 100%;
+    line-height: 30px;
+    color: white;
+    font-size: 18px;
+    font-family: 'Roboto';
+}
+
+.passwordInput {
+    margin-bottom: 8px;
+    background: #515151;
+    border: 2px solid #515151;
+    width: 40%;
+    line-height: 30px;
+    color: white;
+    font-size: 18px;
+    font-family: 'Roboto';
+    margin-left: 85px;
+}
+
+.checkPassword {
+    margin-left: 5px;
+}
+
+.floating {
+    float: left;
+    width: 40%;
+}
+
+.loginSubmit {
+    width: 100%;
+    height: 30px;
+    background: #2AAE63;
+    font-family: 'Roboto';
+    border: 2px solid #2AAE63;
+    color: white;
+    font-size: 18px;
+}
+
+.label {
+    display: inline-block;
+    margin-bottom: 8px;
+    color: white;
+    vertical-align: top;
+    text-align: left;
+    font-family: 'Roboto';
+}
+
+.labelPassword {
+    display: inline-block;
+    margin-bottom: 8px;
+    color: white;
+    vertical-align: top;
+    text-align: left;
+    font-family: 'Roboto';
+    margin-left: 85px;
+}
+
+.logo {
+    position: absolute;
+    height: 10%;
+    width: 9%;
+    top: 5px;
+    left: 5px;
+}
+
+.checkboxContainer {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    user-select: none;
+    color: white;
+    font-family: 'Roboto';
+}
+
+.check {
+    position: absolute;
+    opacity: 0;
+}
+
+.checkmark {
+    position: absolute;
+    top: 2px;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    background-color: #2AAE63;
+    border-radius: 50%;
+}
+
+.checkmark:hover {
+    background-color: #484848;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.loginContainer .check:checked ~ .checkmark:after {
+    display: block;
+    top: 3px;
+    left: 3px;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: #292929;
+}
+
+.captcha {
+    width: 100%;
+    height: 80px;
+    background: white;
+}
+
+.languages {
+    position: absolute;
+    display: inline-block;
+    top: 7px;
+    right: 7px;
+    color: white;
+}
+
+.language {
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.language:active {
+    color: #2AAE63;
+}
