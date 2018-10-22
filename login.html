@@ -12,16 +12,14 @@
     <div class="loginContainer">
 
         <form id="login" method="POST" action="/login">
-            {{ form.csrf_token }}
             <label class="label">Login</label><br/>
-            {{ form.username(size=20, class_='loginInput') }}<br/>
-
-            <label class="label"><% = password %></label><br/>
-            {{form.password(size=20, class_='loginInput')}}
+            <input class="loginInput" size="20"/><br/>
+            <label class="label">Hasło</label><br/>
+            <input class="loginInput" size="20"/>
 
         </form>
 
-        <button class="loginSubmit" type="submit" form="login" value="submit"><%= login %></button>
+        <button class="loginSubmit" type="submit" form="login" value="submit">Zaloguj</button>
 
     </div>
 
